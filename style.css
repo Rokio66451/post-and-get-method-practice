@@ -1,0 +1,30 @@
+body {
+ background-image: url("images/b1.jpg");
+ 
+}
+
+
+div{
+    height: 250px;
+    width: 300px;
+    background-color:bisque;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    display:flex;
+    
+}
+
+
+input[type = text], input[type=email] {
+    background-color: aqua;
+    color: black;
+    width: 100%;
+}
+input[type = submit]{
+    background-color:red;
+    color: white;
+    width: 100%;
+}
